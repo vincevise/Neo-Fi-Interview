@@ -28,10 +28,15 @@ Tip:  Token_ticker_names:
 
 
 Binance websocket fetch the price in USDT. For the time being you can consider 1USD = 80 INR As a constant, or use some freely available APIs, for fiat exchanges.
+
 When the dropdown list is clicked on to select the tokens, the pop up shown in the second page should appear. And the search bar in the pop up must be functional. When the token is changed, the logo on the top circular notch of the card also should change, along with the real-time price as well.
+
 The second input box is disabled, and it will show the estimate amount of token the user will get once he enter the amount of INR he is going to invest. The second input box must dynamically change as soon as the user starts to enter data in the first input box.
+
 Rest of the buttons and navbar in the page is not functional, but the elements should be present in the page. You can download the required logo images from the web to be shown in the page.
- 		Bonus Point: Make the website as responsive as possible.
+ 		
+   Bonus Point: Make the website as responsive as possible.
+
 Hosting: Please use any free hosting services to deploy the task and share the link along with the github with us.
 
 
