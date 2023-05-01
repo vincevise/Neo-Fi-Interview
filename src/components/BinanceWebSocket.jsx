@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react'; 
-import { AiOutlineLoading } from 'react-icons/ai';
-import {MoonLoader
-} from 'react-spinners'
+import React, { useEffect, useState } from 'react';  
+import {MoonLoader} from 'react-spinners'
 
 const BinanceWebSocket = ({coin,handleLoading, loading, coinPrice, handleCoinPrice}) => { 
 

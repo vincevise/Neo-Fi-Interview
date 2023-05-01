@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { AiOutlineCheck, AiOutlineSearch } from 'react-icons/ai'
+import {   AiOutlineSearch } from 'react-icons/ai'
 import { COIN_PAIRS } from '../data/data'
 import { GrClose } from 'react-icons/gr'
 import CoinButton from './CoinButton'

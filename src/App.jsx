@@ -6,6 +6,7 @@ import { COIN_PAIRS } from './data/data'
 import {RxTriangleDown} from 'react-icons/rx' 
 import CoinModal from './components/CoinModal'
 import Navbar from './components/Navbar'
+import Sidebar from './components/Sidebar'
  
 
 
@@ -17,6 +18,7 @@ function App() {
   const [loading, setLoading] = useState(true) 
   const [coinPrice, setCoinPrice] = useState(null)
   const [modal, setModal] = useState(false)
+  const [sidebar,setSidebar] = useState(false)
 
   const overlayRef = useRef(null)
   
@@ -41,9 +43,19 @@ function App() {
     if(e.target=== overlayRef.current) setModal(false)
   }
 
+  const closeSidebar = () => {
+    setSidebar(false)
+  }
+
+  const opeSidebar = () => {
+    setSidebar(true)
+  }
+
   return (
     <> 
-    <Navbar/>
+    <Navbar opeSidebar={opeSidebar}/>
+    
+     <Sidebar closeSidebar={closeSidebar} sidebar={sidebar}/>
     <div className='w-screen h-[calc(100vh-45px)] relative [&_input]:my-2 font-poppins' > 
    
     <img src='/union24-lvs.svg' className='w-72 absolute inset-0 mx-auto my-auto' alt="" />
@@ -74,7 +86,7 @@ function App() {
           </button>
           <span className='text-xs text-[#ffffff] my-2 font-thin'>Amount you want to invest</span>
           <InvestComponent coinPrice={coinPrice}/>
-          <button className='w-full text-white font-semibold CSSBg-color px-2 py-2 rounded-full text-xs'>Buy</button>
+          <button className='w-full text-white font-semibold CSSBg-color px-2 py-2 rounded-full text-xs' >Buy</button>
         </div>
       </div>
     </div>
