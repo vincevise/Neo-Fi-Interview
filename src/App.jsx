@@ -59,7 +59,7 @@ function App() {
         />
         <div className="flex flex-col justify-center w-72 lg:w-[350px]   p-6 absolute h-fit inset-0 mx-auto my-auto  ">
           <div className="relative">
-            <span className="w-[42px] h-[42px] lg:w-[50px] lg:h-[50px] absolute -top-[48px] sm:-top-[45px] lg:-top-[60px] rounded-full   mx-auto inset-0 bg-[#1C1731] flex items-center justify-center">
+            <span className="w-[42px] h-[42px] lg:w-[50px] lg:h-[50px] absolute -top-[42px] sm:-top-[45px] lg:-top-[60px] rounded-full   mx-auto inset-0 bg-[#1C1731] flex items-center justify-center">
               <img
                 src={COIN_PAIRS.find((x) => x.value === coin).image}
                 className="w-8"
