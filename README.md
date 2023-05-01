@@ -25,6 +25,8 @@ Tip:  Token_ticker_names:
 4. BNBUSDT
 5. XRPUSDT
 6. SOLUSDT
+
+
 Binance websocket fetch the price in USDT. For the time being you can consider 1USD = 80 INR As a constant, or use some freely available APIs, for fiat exchanges.
 When the dropdown list is clicked on to select the tokens, the pop up shown in the second page should appear. And the search bar in the pop up must be functional. When the token is changed, the logo on the top circular notch of the card also should change, along with the real-time price as well.
 The second input box is disabled, and it will show the estimate amount of token the user will get once he enter the amount of INR he is going to invest. The second input box must dynamically change as soon as the user starts to enter data in the first input box.
