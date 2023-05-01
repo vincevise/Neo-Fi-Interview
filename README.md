@@ -1,6 +1,6 @@
 # Neo-Fi-Interview
 
-<a HREF="https://neofi-interview-task.netlify.app/" target"_blank">LIVE DEMO</a>
+<a HREF="https://neofi-interview-task.netlify.app/" target="_blank">LIVE DEMO</a>
 
 https://user-images.githubusercontent.com/88813613/235452708-b71b1f37-32ff-4923-a7ea-4daed0c7ba08.mp4
 
