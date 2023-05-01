@@ -21,7 +21,7 @@ const Sidebar = ({closeSidebar, sidebar}) => {
         <span className={`text-white absolute right-5 top-5 ${sidebar ? 'block' :'hidden'}`} onClick={closeSidebar}>
             <GrClose color={'white'} size={20}/>
         </span>
-        <div className=' text-[#627EEA] text-lg gap-10 font-semibold h-full items-center justify-center flex flex-col'>
+        <div className={` text-[#627EEA] text-lg gap-10 font-semibold h-full items-center justify-center {sidebar ? 'flex' :'hidden'}  flex-col `}>
             <span>Trade</span>
             <span>Earn</span>
             <span>Support</span>
