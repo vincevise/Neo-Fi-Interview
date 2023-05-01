@@ -1,0 +1,57 @@
+body{
+    background-color: #040406;
+}
+
+.background-image{
+    background-image: url(" ");
+    background-size: 288px  ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.CSSBg-color{
+    background-image: linear-gradient(to right,#3387D5, #7A06C9)
+}
+
+.CSS-modalborder{ 
+  border-image: linear-gradient( #3B7904, #000000);
+}
+
+
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.noscroll { 
+  overflow: -moz-scrollbars-none; 
+}
+.noscroll { 
+  -ms-overflow-style: none; 
+}
+
+.noscroll::-webkit-scrollbar {
+  display: none;
+}
+
+.CSSLogo{
+  background: -webkit-linear-gradient(to right, #eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.CSSborder-gradient{
+  border: 1px solid;
+
+  /* Set the gradient to be a linear gradient from left to right */
+  border-image: linear-gradient( rgba(250, 250, 250, 0.5), rgba(250, 250, 250, 0))   1 / 0 20px;
+ 
+  border-radius: 20px;
+}
