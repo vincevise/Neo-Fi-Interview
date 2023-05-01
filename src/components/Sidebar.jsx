@@ -17,7 +17,7 @@ const Sidebar = ({closeSidebar, sidebar}) => {
 
 
   return (
-    <div className='fixed w-0 h-screen bg-white inset-0 z-[100] bg-[#1B192D] transition-all	' ref={sidearRef}>
+    <div className='fixed w-0 h-screen bg-black inset-0 z-[100] bg-[#1B192D] transition-all	' ref={sidearRef}>
         <span className={`text-white absolute right-5 top-5 ${sidebar ? 'block' :'hidden'}`} onClick={closeSidebar}>
             <GrClose color={'white'} size={20}/>
         </span>
@@ -26,6 +26,9 @@ const Sidebar = ({closeSidebar, sidebar}) => {
             <span>Earn</span>
             <span>Support</span>
             <span>About</span>
+            <button className='CSSBg-color text-white text-[11px] px-3 py-1  font-semibold flex font-poppins cursor-pointer   rounded-full   '>
+            Connect wallet
+            </button>
         </div>
     </div>
   )

@@ -17,11 +17,11 @@ const InvestComponent = ({coinPrice}) => {
     <>
     
     <div className=''>
-        <span className='flex relative w-full items-center'>
+        <span className='flex relative w-full items-center lg:my-2'>
             <input 
               type="number" 
               value={invest || ''} 
-              className='rounded-md py-2 px-3 text-md border border-[#6E56F8] bg-inherit	outline-none text-[#6F6F7E] font-semibold w-full ' placeholder='0.00' 
+              className='rounded-md py-2 px-3 text-md border border-[#6E56F8] bg-inherit	outline-none text-[#6F6F7E] font-semibold w-full my-2' placeholder='0.00' 
               onChange={ handleInvest }
             />
             <span className='absolute right-4 z-20 text-[#FFFFFF] text-xs'>INR</span>
@@ -32,7 +32,7 @@ const InvestComponent = ({coinPrice}) => {
           onChange={handleAmount}
           placeholder='0.00' 
           value={coinAmount } 
-          className='rounded-md py-2 px-3 w-full outline-none font-semibold text-md text-[#6F6F7E]  bg-[#1C1731]'
+          className='rounded-md py-2 px-3 w-full outline-none font-semibold text-md text-[#6F6F7E]  bg-[#1C1731] lg:my-2'
         />
     </div>
     </>
