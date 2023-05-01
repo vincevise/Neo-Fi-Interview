@@ -1,7 +1,6 @@
 # Neo-Fi-Interview
 
-
-
+<a HREF="https://neofi-interview-task.netlify.app/" target"_blank">LIVE DEMO</a>
 
 https://user-images.githubusercontent.com/88813613/235452708-b71b1f37-32ff-4923-a7ea-4daed0c7ba08.mp4
 
@@ -11,6 +10,8 @@ https://user-images.githubusercontent.com/88813613/235452708-b71b1f37-32ff-4923-
 
 ### Task Brief
 NeoFi Frontend Developer Round – 1 Assignment
+
+
  
 The task is to code the following UI design using HTML, CSS ( JQuery [ or React ] is preferred), and JavaScript.
 https://www.figma.com/file/PcKN63mPoHZw9LXtAPbX1U/Interview-task--1?type=design&node-id=5-2&t=xTUO33q3zk11CZ2V-0
